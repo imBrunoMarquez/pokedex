@@ -1,6 +1,6 @@
 import { Type } from '../types/pokemon';
 import toast from 'react-hot-toast';
-import create from 'zustand';
+import {create} from 'zustand';
 import { persist, devtools } from 'zustand/middleware';
 
 export type MyPokemon = {
