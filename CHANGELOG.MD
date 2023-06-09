@@ -1,3 +1,12 @@
+## 0.0.3 (Released - 09-06-2023)
+
+_Features:_
+
+-   usePokemon Custom Hook
+-   Colors and icons for the types of pokemon and abilities
+-   Layout creation (with helmet)
+-   Added a new About entry to the navbar
+
 ## 0.0.2 (Released - 07-06-2023)
 
 _Features:_
