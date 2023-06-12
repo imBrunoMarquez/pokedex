@@ -1,4 +1,4 @@
-import { CgPokemon, CgSearch } from 'react-icons/cg';
+import { CgInfo, CgPokemon, CgSearch } from 'react-icons/cg';
 import { NavbarItem } from './navbarItem';
 
 const links = [
@@ -13,6 +13,13 @@ const links = [
 		//TODO ADD URL FOR ROUTING
 		url: '',
 		icon: <CgSearch />,
+	},
+
+	{
+		text: 'About',
+		//TODO ADD URL FOR ROUTING
+		url: '',
+		icon: <CgInfo />,
 	},
 ];
 
