@@ -1,20 +1,14 @@
-import { useState } from 'react';
-import { Navbar } from './ui';
+import { Route, Routes, useLocation } from 'react-router-dom';
+import { About } from './ui/screens/about';
+import { Home } from './ui/screens/home';
 
 function App() {
-	const [count, setCount] = useState(0);
-
+	const location = useLocation();
 	return (
-		<>
-			<h1>Vite + React</h1>
-			<div className="card">
-				<button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
-				<p className="text-2xl text-red-600">
-					Edit <code>src/App.tsx</code> and save to test HMR
-				</p>
-			</div>
-			<p className="read-the-docs">Click on the Vite and React logos to learn more</p>
-		</>
+		<Routes key={location.pathname}>
+			<Route path="/" element={<Home />} />
+			<Route path="/about" element={<About />} />
+		</Routes>
 	);
 }
 
