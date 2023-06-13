@@ -9,12 +9,12 @@
 
 	.item-nav {
 		@apply flex w-full flex-col items-center bg-white bg-opacity-5 backdrop-blur-sm p-2 text-lg text-neutral-300 outline outline-neutral-300 transition-all;
-		height: 4rem; /* Set a fixed height for all navigation items */
+		height: 4rem;
 	}
 
 	.item-nav-active {
 		@apply item-nav z-10 justify-center bg-purple-500 text-xl text-white;
-		height: 4rem; /* Set the same height as other navigation items */
+		height: 4rem;
 	}
 }
 
