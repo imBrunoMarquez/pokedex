@@ -7,7 +7,7 @@ interface PokemonMeasurementProps {
 	pokemon: Pokemon;
 }
 
-const PokemonMeasurement = ({ pokemon }: PokemonMeasurementProps) => {
+export const PokemonMeasurement = ({ pokemon }: PokemonMeasurementProps) => {
 	return (
 		<div>
 			<div className="mx-auto mb-2 flex w-fit items-center justify-between gap-3 rounded-2xl bg-white backdrop-blur-sm bg-opacity-10 p-5 text-white">
@@ -34,5 +34,3 @@ const PokemonMeasurement = ({ pokemon }: PokemonMeasurementProps) => {
 		</div>
 	);
 };
-
-export default PokemonMeasurement;

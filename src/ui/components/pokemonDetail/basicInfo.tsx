@@ -1,7 +1,7 @@
 import { Pokemon } from '../../../types/pokemon';
 import { titleCase } from '../../../utils/formatter';
 import { PokemonType } from '../pokemonCard/pokemonType';
-import PokemonMeasurement from './pokemonMeasurement';
+import { PokemonMeasurement } from './pokemonMeasurement';
 
 interface BasicInfoProps {
 	pokemon: Pokemon;
