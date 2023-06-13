@@ -10,15 +10,13 @@ const links = [
 	},
 	{
 		text: 'Pokedex',
-		//TODO ADD URL FOR ROUTING
-		url: '',
+		url: '/',
 		icon: <CgSearch />,
 	},
 
 	{
 		text: 'About',
-		//TODO ADD URL FOR ROUTING
-		url: '',
+		url: '/about',
 		icon: <CgInfo />,
 	},
 ];

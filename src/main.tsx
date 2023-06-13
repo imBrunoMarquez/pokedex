@@ -6,7 +6,6 @@ import { HelmetProvider } from 'react-helmet-async';
 import { QueryClientProvider, QueryClient } from 'react-query';
 import { ReactQueryDevtools } from 'react-query/devtools';
 import { Toaster } from 'react-hot-toast';
-import './index.css';
 
 const queryClient = new QueryClient();
 

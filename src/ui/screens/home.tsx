@@ -1,4 +1,4 @@
-import { Layout } from '../../components/layout';
+import { Layout } from '../../components/layout/layout';
 import { PokemonList } from '../components/pokemonList/pokemonList';
 import { useGetPokemonList } from '../../hooks/usePokemon';
 import InfiniteScroll from 'react-infinite-scroll-component';
