@@ -1,7 +1,7 @@
-import { Pokemon } from '../../../types/pokemon';
+import { Pokemon } from '../../../../types/pokemon';
 import { GiWeightScale } from 'react-icons/gi';
 import { FaRulerVertical } from 'react-icons/fa';
-import { convertCmToLb, convertKgToFt } from '../../../utils/formatter';
+import { convertCmToLb, convertKgToFt } from '../../../../utils/formatter';
 
 interface PokemonMeasurementProps {
 	pokemon: Pokemon;

@@ -5,6 +5,8 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 
 export const Home = () => {
 	const { data, fetchNextPage, hasNextPage } = useGetPokemonList();
+
+	console.log('### data', data);
 	return (
 		<Layout title="Home">
 			{data && hasNextPage && (

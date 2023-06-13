@@ -9,6 +9,12 @@ export const theme = {
 			'rangoon-green': '#19191B',
 			'quill-grey': '#D4D4D4',
 			'dark-jungle-green': '#191B1E',
+			fire: '#F08030cc',
+			water: '#6890F0cc',
+		},
+		borderColor: {
+			fire: '#F08030cc',
+			water: '#6890F0cc',
 		},
 		animation: {
 			tilt: 'tilt 10s infinite linear',

@@ -1,6 +1,6 @@
-import { Pokemon } from '../../../types/pokemon';
-import { titleCase } from '../../../utils/formatter';
-import { Bar } from './bar';
+import { Pokemon } from '../../../../types/pokemon';
+import { titleCase } from '../../../../utils/formatter';
+import { Bar } from './bar.shard';
 
 interface StatsProps {
 	pokemon: Pokemon;
