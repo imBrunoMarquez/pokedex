@@ -11,7 +11,7 @@ export const Layout = ({ children, title }: LayoutProps) => {
 			<Helmet>
 				<title>{title} | PokeDex </title>
 			</Helmet>
-			<div className="main-layout">
+			<div className="layout">
 				{children}
 				<Navbar />
 			</div>

@@ -1,11 +1,17 @@
-import { Layout } from '../../components/layout/layout';
+import { Layout } from '../../components/layout';
 
 export const About = () => {
 	return (
 		<Layout title="About">
 			<div className="flex flex-col space-y-3 min-h-screen items-center  pt-20 text-quill-grey">
-				<img className="mx-auto w-36" width={200} height={200} src="/pokeball.png" alt="logo pokeball" />
-				<div className="relative bottom-2 space-y-2 px-7 text-center">
+				<img
+					className="mx-auto w-36"
+					width={200}
+					height={200}
+					src="https://gifdb.com/images/high/gengar-happy-laughing-dtuzsp3h0hv49d16.gif"
+					alt="gengar laughing gif"
+				/>
+				<div className="relative bottom-0 space-y-2 px-7 text-center">
 					<p>
 						A pokedex app built with react ands typescript, made by Bruno Marquez and Alexandre Gonçalves.
 					</p>
