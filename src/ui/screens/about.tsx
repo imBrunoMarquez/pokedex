@@ -6,8 +6,6 @@ export const About = () => {
 			<div className="flex flex-col space-y-3 min-h-screen items-center  pt-20 text-quill-grey">
 				<img
 					className="mx-auto w-36"
-					width={200}
-					height={200}
 					src="https://gifdb.com/images/high/gengar-happy-laughing-dtuzsp3h0hv49d16.gif"
 					alt="gengar laughing gif"
 				/>
@@ -15,15 +13,21 @@ export const About = () => {
 					<p>
 						A pokedex app built with react ands typescript, made by Bruno Marquez and Alexandre Gonçalves.
 					</p>
+
 					<p>
 						The source code can be found{' '}
-						<a target={'_blank'} className="font-bold" href="https://github.com/imBrunoMarquez/pokedex">
+						<a
+							target={'_blank'}
+							className="font-bold text-purple-500"
+							href="https://github.com/imBrunoMarquez/pokedex"
+						>
 							here
 						</a>
 						.
 					</p>
+
 					<p>
-						© 2023 Pokémon. © 1995–2023 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, Pokémon character
+						2023 Pokémon. © 1995–2023 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, Pokémon character
 						names, Nintendo Switch, Nintendo 3DS, Nintendo DS, Wii, Wii U, and WiiWare are trademarks of
 						Nintendo. The YouTube logo is a trademark of Google Inc. Other trademarks are the property of
 						their respective owners. Distribution in any form and any channels now known or in the future of

@@ -4,14 +4,17 @@
 
 @layer components {
 	.menu-navigation {
-		@apply fixed bottom-0 left-0 right-0 mx-auto w-full max-w-md flex flex-row items-end justify-center;
+		@apply fixed bottom-0 left-0 right-0 mx-auto w-full flex flex-row items-end justify-center;
 	}
 
 	.item-nav {
 		@apply flex w-full flex-col items-center bg-white bg-opacity-5 backdrop-blur-sm p-2 text-lg text-neutral-300 outline outline-neutral-300 transition-all;
+		height: 4rem; /* Set a fixed height for all navigation items */
 	}
+
 	.item-nav-active {
-		@apply item-nav z-10 h-16 justify-center  bg-purple-500 pt-3 text-xl text-white;
+		@apply item-nav z-10 justify-center bg-purple-500 text-xl text-white;
+		height: 4rem; /* Set the same height as other navigation items */
 	}
 }
 
