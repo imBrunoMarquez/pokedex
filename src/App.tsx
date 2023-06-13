@@ -1,5 +1,4 @@
 import { Route, Routes, useLocation } from 'react-router-dom';
-import { Navbar } from './ui/components/navbar';
 import { About } from './ui/screens/about';
 import { Home } from './ui/screens/home';
 
