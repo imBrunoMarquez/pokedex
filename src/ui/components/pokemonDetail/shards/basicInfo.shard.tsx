@@ -1,7 +1,7 @@
-import { Pokemon } from '../../../types/pokemon';
-import { titleCase } from '../../../utils/formatter';
-import { PokemonType } from '../pokemonCard/pokemonType';
-import { PokemonMeasurement } from './pokemonMeasurement';
+import { Pokemon } from '../../../../types/pokemon';
+import { titleCase } from '../../../../utils/formatter';
+import { PokemonType } from '../../pokemonList/shards/pokemonType.shard';
+import { PokemonMeasurement } from './pokemonMeasurement.shard';
 
 interface BasicInfoProps {
 	pokemon: Pokemon;

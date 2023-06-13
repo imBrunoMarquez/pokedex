@@ -1,8 +1,8 @@
-import { getGradientBackground } from '../../../assets/theme';
-import { Pokemon } from '../../../types/pokemon';
-import { formattedId, formattedStatically, titleCase } from '../../../utils/formatter';
+import { getGradientBackground } from '../../../../assets/theme';
+import { Pokemon } from '../../../../types/pokemon';
+import { formattedId, formattedStatically, titleCase } from '../../../../utils/formatter';
 import { Link } from 'react-router-dom';
-import { PokemonType } from '../pokemonCard/pokemonType';
+import { PokemonType } from './pokemonType.shard';
 
 type Props = {
 	pokemon: Pokemon;

@@ -1,5 +1,4 @@
 import { getPokemon, getPokemonAbility, getPokemonList } from '../services/pokemonServices';
-
 import { useQuery, useQueries, useInfiniteQuery } from 'react-query';
 
 export const useGetPokemonList = () => {

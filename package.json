@@ -1,8 +1,9 @@
 {
 	"name": "pokedex",
 	"private": true,
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"type": "module",
+	"authors": ["Bruno Marquez","Alexandre Gonçalves"],
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
