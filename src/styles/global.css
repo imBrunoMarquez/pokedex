@@ -16,6 +16,10 @@
 		@apply item-nav z-10 justify-center bg-purple-500 text-xl text-white;
 		height: 4rem;
 	}
+
+	.detail-container {
+		@apply mt-10 flex h-full flex-grow flex-col rounded-t-2xl border-4 border-[#272727] px-5 pt-5 pb-60 text-[#D4D4D4];
+	}
 }
 
 @layer base {

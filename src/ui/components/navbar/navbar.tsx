@@ -7,7 +7,6 @@ const links = [
 		url: '/',
 		icon: <CgPokemon />,
 	},
-
 	{
 		text: 'About',
 		url: '/about',

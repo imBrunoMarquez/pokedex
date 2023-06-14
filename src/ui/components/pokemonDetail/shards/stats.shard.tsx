@@ -13,7 +13,7 @@ export const Stats = ({ pokemon }: StatsProps) => {
 					<p>{titleCase(stat?.name)}</p>
 					<div className="flex w-2/3 items-center justify-between">
 						<p className="font-semibold">{base_stat}</p>
-						<Bar base_stat={base_stat!} />
+						<Bar base_stat={base_stat} />
 					</div>
 				</div>
 			))}
