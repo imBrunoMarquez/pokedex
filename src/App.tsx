@@ -1,6 +1,5 @@
 import { Route, Routes, useLocation } from 'react-router-dom';
-import { About } from './ui/screens/about';
-import { Home } from './ui/screens/home';
+import { About, Home } from './ui/screens';
 import { PokemonDetail } from './ui/components/pokemonDetail/pokemonDetails.core';
 
 function App() {

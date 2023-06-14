@@ -11,10 +11,14 @@ export const theme = {
 			'dark-jungle-green': '#191B1E',
 			fire: '#F08030cc',
 			water: '#6890F0cc',
+			grass: '#78C850cc',
+			poison: '#A040A0cc',
 		},
 		borderColor: {
 			fire: '#F08030cc',
 			water: '#6890F0cc',
+			grass: '#78C850cc',
+			poison: '#A040A0cc',
 		},
 		animation: {
 			tilt: 'tilt 10s infinite linear',
