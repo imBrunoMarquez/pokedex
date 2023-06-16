@@ -1,3 +1,10 @@
+## 0.0.7 (Released - 16-06-2023)
+
+_Features:_
+
+-   Home Pokemon Cards Size issue fixed and closed
+-   Uniform Image Sizes issue fixed and closed
+
 ## 0.0.6 (Released - 16-06-2023)
 
 _Features:_
