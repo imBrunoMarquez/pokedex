@@ -19,54 +19,6 @@ interface Color {
 	};
 }
 
-export const textColor: Color = {
-	types: {
-		normal: 'text-[#A8A878]',
-		fire: 'text-[#F08030]',
-		water: 'text-[#6890F0]',
-		grass: 'text-[#78C850]',
-		electric: 'text-[#F8D030]',
-		ice: 'text-[#98D8D8]',
-		fighting: 'text-[#C03028]',
-		poison: 'text-[#A040A0]',
-		ground: 'text-[#E0C068]',
-		flying: 'text-[#A890F0]',
-		psychic: 'text-[#F85888]',
-		bug: 'text-[#A8B820]',
-		rock: 'text-[#B8A038]',
-		ghost: 'text-[#705898]',
-		dark: 'text-[#705848]',
-		dragon: 'text-[#7038F8]',
-		steel: 'text-[#B8B8D8]',
-		fairy: 'text-[#905F63]',
-		unkown: 'text-[#6AA596]',
-	},
-};
-
-export const borderColor: Color = {
-	types: {
-		normal: 'border-[#A8A878]/90',
-		fire: 'border-[#F08030]/90',
-		water: 'border-[#6890F0]/90',
-		grass: 'border-[#78C850]/90',
-		electric: 'border-[#F8D030]/90',
-		ice: 'border-[#98D8D8]/90',
-		fighting: 'border-[#C03028]/90',
-		poison: 'border-[#A040A0]/90',
-		ground: 'border-[#E0C068]/90',
-		flying: 'border-[#A890F0]/90',
-		psychic: 'border-[#F85888]/90',
-		bug: 'border-[#A8B820]/90',
-		rock: 'border-[#B8A038]/90',
-		ghost: 'border-[#705898]/90',
-		dark: 'border-[#705848]/90',
-		dragon: 'border-[#7038F8]/90',
-		steel: 'border-[#B8B8D0]/90',
-		fairy: 'border-[#905F63]/90',
-		unkown: 'border-[#6AA596]/90',
-	},
-};
-
 export const bgColorOne: Color = {
 	types: {
 		normal: 'from-[#A8A878]/80',

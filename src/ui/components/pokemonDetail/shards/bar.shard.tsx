@@ -7,8 +7,8 @@ export const Bar = ({ base_stat }: BarProps) => {
 	const statColor = (base_stat || 0) >= 80 ? 'bg-[#2db487]' : 'bg-[#c8c8c8]';
 
 	return (
-		<div className="relative h-2 w-[16rem] rounded-full bg-[#444d4a]">
-			<div style={{ width: `${formattedStat}%` }} className={`h-full  rounded-full ${statColor}`}></div>
+		<div className="relative h-2 w-40 rounded-full bg-[#444d4a]">
+			<div style={{ width: `${formattedStat}%` }} className={`h-full rounded-full ${statColor}`}></div>
 		</div>
 	);
 };

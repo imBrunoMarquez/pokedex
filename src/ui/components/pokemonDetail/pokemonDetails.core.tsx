@@ -18,6 +18,7 @@ export const PokemonDetail = () => {
 				pokemon && (
 					<>
 						<PokemonDetailsShards.HeaderInfo pokemon={pokemon} />
+						<PokemonDetailsShards.BlurryGradientAnimate types={pokemon.types} />
 						<PokemonDetailsShards.BasicInfo pokemon={pokemon} />
 						<div className="detail-container">
 							<PokemonDetailsShards.Menu activeTab={activeTab} setActiveTab={setActiveTab} />

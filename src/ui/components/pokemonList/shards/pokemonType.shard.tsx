@@ -23,7 +23,22 @@ export const PokemonType = ({ types, isShow }: Props) => {
 								type.type.name === 'fire' && `border-fire text-fire`,
 								type.type.name === 'water' && `border-water text-water`,
 								type.type.name === 'grass' && `border-grass text-grass`,
-								type.type.name === 'poison' && `border-poison text-poison`
+								type.type.name === 'poison' && `border-poison text-poison`,
+								type.type.name === 'normal' && `border-normal text-normal`,
+								type.type.name === 'electric' && `border-electric text-electric`,
+								type.type.name === 'ice' && `border-ice text-ice`,
+								type.type.name === 'fighting' && `border-fighting text-fighting`,
+								type.type.name === 'ground' && `border-ground text-ground`,
+								type.type.name === 'flying' && `border-flying text-flying`,
+								type.type.name === 'psychic' && `border-psychic text-psychic`,
+								type.type.name === 'bug' && `border-bug text-bug`,
+								type.type.name === 'rock' && `border-rock text-rock`,
+								type.type.name === 'ghost' && `border-ghost text-ghost`,
+								type.type.name === 'dark' && `border-dark text-dark`,
+								type.type.name === 'dragon' && `border-dragon text-dragon`,
+								type.type.name === 'steel' && `border-steel text-steel`,
+								type.type.name === 'fairy' && `border-fairy text-fairy`,
+								type.type.name === 'unkown' && `border-unkown text-unkown`
 							)}
 						>
 							<p className={`${isShow ? 'block' : 'hidden sm:block'}`}>{titleCase(type.type.name)}</p>
