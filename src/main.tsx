@@ -15,7 +15,6 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 			<HelmetProvider>
 				<QueryClientProvider client={queryClient}>
 					<App />
-					<ReactQueryDevtools initialIsOpen={false} />
 				</QueryClientProvider>
 			</HelmetProvider>
 		</BrowserRouter>
