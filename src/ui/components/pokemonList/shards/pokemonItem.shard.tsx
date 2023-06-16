@@ -15,7 +15,7 @@ export const PokemonItem = ({ pokemon, types }: Props) => {
 	const secondType = types[1]?.type.name;
 
 	return (
-		<article className="relative transition duration-300 ease-in-out hover:scale-105 group">
+		<article className="relative  group">
 			{types.length > 1 && (
 				<div
 					className={clsx(
