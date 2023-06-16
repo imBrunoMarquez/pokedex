@@ -15,7 +15,7 @@ export const PokemonItem = ({ pokemon, types }: Props) => {
 	const secondType = types[1]?.type.name;
 
 	return (
-		<article className="relative  group">
+		<article className="relative group">
 			{types.length > 1 && (
 				<div
 					className={clsx(
