@@ -1,15 +1,14 @@
-import { Layout } from '../../components/layout';
-import { PokemonList } from '../components/pokemonList/pokemonList';
+import { Layout, PokemonList } from '../components';
 import { useGetPokemonList } from '../../hooks/usePokemon';
 import InfiniteScroll from 'react-infinite-scroll-component';
 
 export const Home = () => {
-	const { data, fetchNextPage, hasNextPage } = useGetPokemonList();
+	const { data, fetchNextPage, hasNextPage, isLoading, isSuccess } = useGetPokemonList();
 
 	console.log('### data', data);
 	return (
 		<Layout title="Home">
-			{data && hasNextPage && (
+			{!isLoading && isSuccess && data && hasNextPage && (
 				<InfiniteScroll
 					dataLength={data?.pages.length}
 					next={() => {
@@ -23,9 +22,7 @@ export const Home = () => {
 						</p>
 					}
 				>
-					{data?.pages.map((page, idx) => (
-						<PokemonList results={page.data} key={idx} />
-					))}
+					{!isLoading && data?.pages.map((page, idx) => <PokemonList results={page.data} key={idx} />)}
 				</InfiniteScroll>
 			)}
 		</Layout>

@@ -1,4 +1,4 @@
-import { Navbar } from '../../ui/components/navbar';
+import { Navbar } from '../navbar';
 import { Helmet } from 'react-helmet-async';
 
 interface LayoutProps {

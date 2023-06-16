@@ -1,9 +1,9 @@
-import { Layout } from '../../components/layout';
+import { Layout } from '../components';
 
 export const About = () => {
 	return (
 		<Layout title="About">
-			<div className="flex flex-col space-y-3 min-h-screen items-center  pt-20 text-quill-grey">
+			<div className="flex flex-col space-y-3 min-h-screen items-center  pt-20 text-quill-grey px-60">
 				<img
 					className="mx-auto w-36"
 					src="https://gifdb.com/images/high/gengar-happy-laughing-dtuzsp3h0hv49d16.gif"

@@ -1,3 +1,11 @@
+## 0.0.6 (Released - 16-06-2023)
+
+_Features:_
+
+-   TailwindCss Style changes
+-   Code Architecture
+-   Gradient Border and card
+
 ## 0.0.5 (Released - 13-06-2023)
 
 _Features:_

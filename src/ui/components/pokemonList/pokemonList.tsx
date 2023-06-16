@@ -13,7 +13,9 @@ export const PokemonList = ({ results }: Props) => {
 	return (
 		<div className="grid grid-cols-2 gap-5 px-5 py-3">
 			{pokemons.map(({ data: { data: pokemon } = {} }) => {
-				return pokemon && <PokemonListCore.PokemonItem pokemon={pokemon} key={pokemon.id} />;
+				return (
+					pokemon && <PokemonListCore.PokemonItem pokemon={pokemon} types={pokemon.types} key={pokemon.id} />
+				);
 			})}
 		</div>
 	);

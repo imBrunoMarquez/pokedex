@@ -5,15 +5,16 @@ import { Bar } from './bar.shard';
 interface StatsProps {
 	pokemon: Pokemon;
 }
+
 export const Stats = ({ pokemon }: StatsProps) => {
 	return (
-		<section>
+		<section className="flex flex-col items-center">
 			{pokemon.stats.map(({ stat, base_stat }, idx) => (
-				<div key={idx} className="flex items-center justify-between">
-					<p>{titleCase(stat?.name)}</p>
-					<div className="flex w-2/3 items-center justify-between">
-						<p className="font-semibold">{base_stat}</p>
-						<Bar base_stat={base_stat!} />
+				<div key={idx} className="flex items-center justify-between mb-2 w-64">
+					<p className="text-right pr-2 flex-shrink-0 w-28 truncate">{titleCase(stat?.name)}</p>
+					<div className="flex items-center w-1/2">
+						<p className="font-semibold mr-2">{base_stat}</p>
+						<Bar base_stat={base_stat} />
 					</div>
 				</div>
 			))}
