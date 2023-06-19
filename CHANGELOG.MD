@@ -1,3 +1,9 @@
+## 0.0.8 (Released - 19-06-2023)
+
+_Features:_
+
+-   READ.ME file created
+
 ## 0.0.7 (Released - 16-06-2023)
 
 _Features:_
