@@ -1,4 +1,4 @@
-# PkDx: A PokeDex app
+# PokeDex app
 
 <p align="center">
   <img src="/src/assets/images/pokeball.png" alt='Pokedex'>
